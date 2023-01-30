@@ -16,9 +16,9 @@ export default function Header() {
     return (
         <div className={styles.header}>
             <Image src={logo} width={80} height={21} />
-            <nav>
+            <nav className={styles.nav}>
                 {links.map(link => (
-                    <Link href={link.href}>{link.name}</Link>
+                    <Link key={link.href} href={link.href}>{link.name}</Link>
                 ))}
             </nav>
         </div>
