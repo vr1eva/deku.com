@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --dark: #2E2E2E;
+  --orange: #C55E34;
+  --lightGreen: #D4E3D6;
+}
