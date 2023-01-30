@@ -2,6 +2,9 @@ import Image from "next/image"
 import Link from "next/link"
 import logo from "../assets/logo.svg"
 import styles from "./Header.module.scss"
+import Search from "./Search"
+import cart from "../assets/cart.svg"
+import profile from "../assets/profile.svg"
 
 const links = [
     {name: "Arte", href:"/arte"},
@@ -21,6 +24,12 @@ export default function Header() {
                     <Link key={link.href} href={link.href}>{link.name}</Link>
                 ))}
             </nav>
+            <Search />
+            <div className={styles.shortcuts}>
+                <Link href="/cart"><Image src={cart} width={16} height={16}/></Link>
+                <Link href="/profile"><Image src={profile} width={11} height={16}/></Link>
+                <Link className={styles.login} href="/login" >Iniciar sesión</Link>
+            </div>
         </div>
 
     )
