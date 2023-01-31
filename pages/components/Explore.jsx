@@ -1,4 +1,6 @@
 import arrow from "../assets/arrow.svg"
+import styles from "./Explore.module.scss"
+import Image from "next/image"
 
 export default function Explore() {
     return (
