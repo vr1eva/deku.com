@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Explore from "./components/Explore"
+import Join from "./components/Join"
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <Hero />
 
       <Explore />
+
+      <Join />
 
       <main className={styles.main}>
         <h1 className={styles.title}>

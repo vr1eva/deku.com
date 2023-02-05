@@ -1,0 +1,63 @@
+.join {
+    position: relative;
+    width: 100%;
+    background-color: var(--lightGreen);
+    min-height: 552px;
+    margin-top: 70px;
+}
+
+.joinContainer {
+    position: absolute;
+    width: 100%;
+    top: 43px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 71px;
+}
+
+.joinImage {
+    width: 483px;
+    height: 562px;
+}
+
+.panel {
+    width: 493px;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--dark);
+    margin: 0;
+}
+
+.highlight {
+    color: var(--orange);
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 375;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--dark);
+    margin: 10px 0 0;
+}
+
+.button {
+    border: 1.5px solid var(--orange);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 42px;
+    font-style: normal;
+    font-weight: 494;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--orange);
+    background-color: transparent;
+    margin: 20px 0 0 ;
+}
