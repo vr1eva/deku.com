@@ -1,0 +1,60 @@
+.popular {
+    width: 100%;
+    margin-top: 123px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+}
+
+.more {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--dark);
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: var(--dark);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);  
+  grid-template-rows: repeat(2, 426px); 
+  grid-gap:0; 
+  border-right: 1px solid var(--orange);
+
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.categoryText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}

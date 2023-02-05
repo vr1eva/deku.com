@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Explore from "./components/Explore"
 import Join from "./components/Join"
+import Popular from "./components/Popular"
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
       <Explore />
 
       <Join />
+
+      <Popular />
 
       <main className={styles.main}>
         <h1 className={styles.title}>
