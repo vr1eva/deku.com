@@ -5,6 +5,7 @@ import Hero from "./components/Hero"
 import Explore from "./components/Explore"
 import Join from "./components/Join"
 import Popular from "./components/Popular"
+import Cta from "./components/Cta"
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
       <Join />
 
       <Popular />
+
+      <Cta />
 
       <main className={styles.main}>
         <h1 className={styles.title}>
