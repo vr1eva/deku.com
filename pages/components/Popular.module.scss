@@ -22,6 +22,7 @@
     font-size: 20px;
     line-height: 25px;
     text-align: center;
+    margin: 0;
     color: var(--dark);
 }
 
@@ -40,7 +41,7 @@
   grid-template-rows: repeat(2, 426px); 
   grid-gap:0; 
   border-right: 1px solid var(--orange);
-
+  margin-top: 25px;
 }
 
 .cell {

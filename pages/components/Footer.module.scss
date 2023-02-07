@@ -1,0 +1,85 @@
+.footer {
+    padding: 58px 90px;
+    background: var(--dark);
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    gap: 160.5px;
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.logo {
+    width: 120px;
+    height: 32px;
+}
+
+.email {
+    margin: 0;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+}
+
+.platforms {
+    display: flex;
+    gap: 36px;
+}
+
+.links {
+    display: flex;
+    gap: 80px;
+}
+
+.column {
+    gap: 5px;
+    display:flex;
+    flex-direction: column;
+}
+
+.link {
+    font-style: normal;
+    font-weight: 375;
+    font-size: 22px;
+    color: white;
+    
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-items: center;
+}
+
+.right {
+    font-style: normal;
+    font-weight: 375;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.55em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.plug {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.highlight {
+    color: var(--orange);
+}
