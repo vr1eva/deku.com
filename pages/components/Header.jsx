@@ -18,7 +18,8 @@ const links = [
 export default function Header() {
     return (
         <div className={styles.header}>
-            <Image src={logo} width={80} height={21} />
+           <div className={styles.container}>
+           <Image src={logo} width={80} height={21} />
             <nav className={styles.nav}>
                 {links.map(link => (
                     <Link key={link.href} href={link.href}>{link.name}</Link>
@@ -30,6 +31,7 @@ export default function Header() {
                 <Link href="/profile"><Image src={profile} width={11} height={16}/></Link>
                 <Link className={styles.login} href="/login" >Iniciar sesión</Link>
             </div>
+           </div>
         </div>
 
     )
